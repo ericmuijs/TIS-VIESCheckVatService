@@ -17,5 +17,6 @@ Figure 1 shows the classes and interfaces created to interact with the service. 
 * **VIESCheckServiceFactory** : Factory class that returns the correct implementation of the client that interacts with the services VIES. The implementation is supported SOAP.
 * **VIESVatModel** : This class represents the set of data returned by the service VIES.
 
-![alt text](http://www.dontesta.it/blog/wp-content/uploads/2014/07/VIESCheckVatServiceClassDiagram_1.png "Class Diagram of the VIESCheckVatService")
+![](http://www.dontesta.it/blog/wp-content/uploads/2014/07/VIESCheckVatServiceClassDiagram_1.png "Class Diagram of the VIESCheckVatService")
+
 Figure 1. Class Diagram of the VIESCheckVatService
