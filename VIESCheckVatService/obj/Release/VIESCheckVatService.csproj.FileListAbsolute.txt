@@ -1,0 +1,2 @@
+C:\Documents and Settings\musarra\Documenti\SharpDevelop Projects\VIESCheckVatService\VIESCheckVatService\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\musarra\Documenti\SharpDevelop Projects\VIESCheckVatService\VIESCheckVatService\obj\Release\VIESCheckVatService.dll
