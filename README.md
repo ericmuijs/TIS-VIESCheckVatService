@@ -70,3 +70,6 @@ The project was developed using the [SharpDevelop](http://www.icsharpcode.net/) 
 To use the service you are invited to read the document [Specific disclaimer for this service](http://ec.europa.eu/taxation_customs/vies/disclaimer.html) issued by the European Commission.
 
 ### 4. Resources
+* [Web Service Partite IVA Comunitarie](http://www.dontesta.it/blog/web-services/web-service-partite-iva-comunitarie/) from Antonio Musarra's Blog
+* [Consumiamo i servizi dell’Agenzia delle Entrate: Partite IVA Comunitarie](http://www.dontesta.it/blog/web-services/consumiamo-i-servizi-dellagenzia-delle-entrate-partite-iva-comunitarie/) from Antonio Musarra's Blog
+* Example on how to build a SOAP client. NET via SharpDevelop [Building a Client .NET for SugarCRM](http://www.dontesta.it/blog/blog-2/crm/building-a-client-net-for-sugarcrm/) from Antonio Musarra's Blog
