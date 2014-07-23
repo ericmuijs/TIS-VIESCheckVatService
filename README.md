@@ -9,4 +9,13 @@ This C# project implements a simple SOAP client to use the VIES services.
 
 The project is divided into two sub-projects:
 * **VIESCheckVatService** : Contains the SOAP proxy class and some interfaces and classes of boundary.
-* **VIESCheckVatServiceClient** : Contiene una semplice applicazione Windows che utilizza il servizio VIES tramite il client SOAP.
+* **VIESCheckVatServiceClient** : It contains a simple Windows application that uses the service via the VIES SOAP client.
+
+Figure 1 shows the classes and interfaces created to interact with the service. In detail:
+* **IVIESCheckVatService** :
+* **VIESCheckVatServicesSOAPImpl** :
+* **VIESCheckServiceFactory** :
+* **VIESVatModel** :
+
+![alt text](http://www.dontesta.it/blog/wp-content/uploads/2014/07/VIESCheckVatServiceClassDiagram_1.png "Class Diagram of the VIESCheckVatService")
+Figure 1. Class Diagram of the VIESCheckVatService
