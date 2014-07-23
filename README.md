@@ -19,4 +19,45 @@ Figure 1 shows the classes and interfaces created to interact with the service. 
 
 ![](http://www.dontesta.it/blog/wp-content/uploads/2014/07/VIESCheckVatServiceClassDiagram_1.png "Class Diagram of the VIESCheckVatService")
 
-Figure 1. Class Diagram of the VIESCheckVatService
+**Figure 1. Class Diagram of the VIESCheckVatService**
+
+
+Please find below an example of C # code that shows the use of the VIES service.
+
+```C#
+VIESCheckVatService.IVIESCheckVatService iCheckVatService =
+    VIESCheckVatService.VIESCheckServiceFactory.getService(ServiceType.SOAP);
+
+VIESCheckVatService.VIESVatModel vatModel = iCheckVatService.getDetailVAT("IT", "01983251678");
+
+Console.Out.WriteLine("Valid: " + vatModel.Valid);
+Console.Out.WriteLine("County Code: " + vatModel.CountryCode);
+Console.Out.WriteLine("VAT Number: " + vatModel.VatNumber);
+Console.Out.WriteLine("Request Date: " + vatModel.RequestDate);
+Console.Out.WriteLine("Org. Name: " + vatModel.Name);
+Console.Out.WriteLine("Org. Address: " + vatModel.Address);
+
+```
+**Source Code 1. Example C# client code that use VIES service**
+
+The following figures show the windows application (available in the project) that interacts with the VIES service.
+
+![](http://www.dontesta.it/blog/wp-content/uploads/2014/07/VIESCheckVatServiceClient_1.png)
+
+**Figure 2. Validation VAT number OK**
+
+![](http://www.dontesta.it/blog/wp-content/uploads/2014/07/VIESCheckVatServiceClient_2.png)
+
+**Figure 3. Validation VAT number FAILED**
+
+![](http://www.dontesta.it/blog/wp-content/uploads/2014/07/VIESCheckVatServiceClient_3.png)
+
+**Figure 4. Validation VAT number field required**
+
+![](http://www.dontesta.it/blog/wp-content/uploads/2014/07/VIESCheckVatServiceClient_4.png)
+
+**Figure 5. Validation VAT number FAILED for network problems**
+
+![](http://www.dontesta.it/blog/wp-content/uploads/2014/07/VIESCheckVatServiceClient_5.png)
+
+**Figure 6. Validation VAT number FAILED for SOAP Fault**
