@@ -1,12 +1,14 @@
 VIES Check Vat: C# Client Example
 ===================
 
+### 1. Overview
 You can verify the validity of a VAT number issued by any Member State by the European Information Exchange System (VIES) system for validation of VAT numbers. For more information on this service please visit [VIES VAT number validation](http://ec.europa.eu/taxation_customs/vies/)
 
 The VIES has publicly exposed this service through the SOAP protocol. The service is called checkVatService and the WSDL document is located at the following address [WSDL checkVatService](http://ec.europa.eu/taxation_customs/vies/checkVatService.wsdl).
 
 This C# project implements a simple SOAP client to use the VIES services.
 
+### 2. Project details
 The project is divided into two sub-projects:
 * **VIESCheckVatService** : Contains the SOAP proxy class and some interfaces and classes of boundary.
 * **VIESCheckVatServiceClient** : It contains a simple Windows application that uses the service via the VIES SOAP client.
@@ -61,3 +63,10 @@ The following figures show the windows application (available in the project) th
 ![](http://www.dontesta.it/blog/wp-content/uploads/2014/07/VIESCheckVatServiceClient_5.png)
 
 **Figure 6. Validation VAT number FAILED for SOAP Fault**
+
+The project was developed using the [SharpDevelop](http://www.icsharpcode.net/) tool (version 4.4). In addition, the project has been tested and run on the platform. NET 4.
+
+### 3. Notes
+To use the service you are invited to read the document [Specific disclaimer for this service](http://ec.europa.eu/taxation_customs/vies/disclaimer.html) issued by the European Commission.
+
+### 4. Resources
