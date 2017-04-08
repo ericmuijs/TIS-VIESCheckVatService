@@ -1,10 +1,13 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-# SharpDevelop 4.4
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VIESCheckVatService", "VIESCheckVatService\VIESCheckVatService.csproj", "{491CC2A7-8D82-4A41-B664-612E52D20A52}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VIESCheckVatServiceClient", "VIESCheckVatServiceClient\VIESCheckVatServiceClient.csproj", "{2754432C-BE8E-4193-9CE4-2DF59B25C8BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VIESConsole", "VIESConsole\VIESConsole.csproj", "{018B564C-C5BD-434E-A045-8C2468BAA4FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,13 +15,20 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{491CC2A7-8D82-4A41-B664-612E52D20A52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{491CC2A7-8D82-4A41-B664-612E52D20A52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{491CC2A7-8D82-4A41-B664-612E52D20A52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{491CC2A7-8D82-4A41-B664-612E52D20A52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{491CC2A7-8D82-4A41-B664-612E52D20A52}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2754432C-BE8E-4193-9CE4-2DF59B25C8BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{491CC2A7-8D82-4A41-B664-612E52D20A52}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2754432C-BE8E-4193-9CE4-2DF59B25C8BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2754432C-BE8E-4193-9CE4-2DF59B25C8BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2754432C-BE8E-4193-9CE4-2DF59B25C8BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2754432C-BE8E-4193-9CE4-2DF59B25C8BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2754432C-BE8E-4193-9CE4-2DF59B25C8BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{018B564C-C5BD-434E-A045-8C2468BAA4FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{018B564C-C5BD-434E-A045-8C2468BAA4FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{018B564C-C5BD-434E-A045-8C2468BAA4FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{018B564C-C5BD-434E-A045-8C2468BAA4FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal

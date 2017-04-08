@@ -1,0 +1,16 @@
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\VIESCheckVatService\VIESConsole\bin\Debug\VIESConsole.exe.config
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\VIESCheckVatService\VIESConsole\bin\Debug\VIESConsole.exe
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\VIESCheckVatService\VIESConsole\bin\Debug\VIESConsole.pdb
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\VIESCheckVatService\VIESConsole\bin\Debug\VIESCheckVatService.dll
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\VIESCheckVatService\VIESConsole\bin\Debug\VIESCheckVatService.xml
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\VIESCheckVatService\VIESConsole\obj\Debug\VIESConsole.csprojResolveAssemblyReference.cache
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\VIESCheckVatService\VIESConsole\obj\Debug\VIESConsole.exe
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\VIESCheckVatService\VIESConsole\obj\Debug\VIESConsole.pdb
+C:\Users\Eric\Documents\Visual Studio 2017\Projects\VIESCheckVatService\VIESConsole\bin\Debug\VIESConsole.exe.config
+C:\Users\Eric\Documents\Visual Studio 2017\Projects\VIESCheckVatService\VIESConsole\bin\Debug\VIESConsole.exe
+C:\Users\Eric\Documents\Visual Studio 2017\Projects\VIESCheckVatService\VIESConsole\bin\Debug\VIESConsole.pdb
+C:\Users\Eric\Documents\Visual Studio 2017\Projects\VIESCheckVatService\VIESConsole\bin\Debug\VIESCheckVatService.dll
+C:\Users\Eric\Documents\Visual Studio 2017\Projects\VIESCheckVatService\VIESConsole\bin\Debug\VIESCheckVatService.xml
+C:\Users\Eric\Documents\Visual Studio 2017\Projects\VIESCheckVatService\VIESConsole\obj\Debug\VIESConsole.csprojResolveAssemblyReference.cache
+C:\Users\Eric\Documents\Visual Studio 2017\Projects\VIESCheckVatService\VIESConsole\obj\Debug\VIESConsole.exe
+C:\Users\Eric\Documents\Visual Studio 2017\Projects\VIESCheckVatService\VIESConsole\obj\Debug\VIESConsole.pdb

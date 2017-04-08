@@ -1,0 +1,9 @@
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\VIESCheckVatService\VIESCheckVatServiceClient\bin\Debug\VIESCheckVatServiceClient.exe
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\VIESCheckVatService\VIESCheckVatServiceClient\bin\Debug\VIESCheckVatServiceClient.pdb
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\VIESCheckVatService\VIESCheckVatServiceClient\bin\Debug\VIESCheckVatService.dll
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\VIESCheckVatService\VIESCheckVatServiceClient\bin\Debug\VIESCheckVatService.xml
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\VIESCheckVatService\VIESCheckVatServiceClient\obj\Debug\VIESCheckVatServiceClient.csprojResolveAssemblyReference.cache
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\VIESCheckVatService\VIESCheckVatServiceClient\obj\Debug\VIESCheckVatServiceClient.MainForm.resources
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\VIESCheckVatService\VIESCheckVatServiceClient\obj\Debug\VIESCheckVatServiceClient.csproj.GenerateResource.Cache
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\VIESCheckVatService\VIESCheckVatServiceClient\obj\Debug\VIESCheckVatServiceClient.exe
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\VIESCheckVatService\VIESCheckVatServiceClient\obj\Debug\VIESCheckVatServiceClient.pdb
