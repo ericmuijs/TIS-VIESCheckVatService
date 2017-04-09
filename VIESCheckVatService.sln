@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VIESCheckVatService", "VIESCheckVatService\VIESCheckVatService.csproj", "{491CC2A7-8D82-4A41-B664-612E52D20A52}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VIESCheckVatServiceClient", "VIESCheckVatServiceClient\VIESCheckVatServiceClient.csproj", "{2754432C-BE8E-4193-9CE4-2DF59B25C8BE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VIESConsole", "VIESConsole\VIESConsole.csproj", "{018B564C-C5BD-434E-A045-8C2468BAA4FD}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SQL_Database", "SQL_Database\SQL_Database.sqlproj", "{0AB5ACFC-E7B9-43DA-8B20-3914875C894D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,12 @@ Global
 		{018B564C-C5BD-434E-A045-8C2468BAA4FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{018B564C-C5BD-434E-A045-8C2468BAA4FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{018B564C-C5BD-434E-A045-8C2468BAA4FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AB5ACFC-E7B9-43DA-8B20-3914875C894D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AB5ACFC-E7B9-43DA-8B20-3914875C894D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AB5ACFC-E7B9-43DA-8B20-3914875C894D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0AB5ACFC-E7B9-43DA-8B20-3914875C894D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AB5ACFC-E7B9-43DA-8B20-3914875C894D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AB5ACFC-E7B9-43DA-8B20-3914875C894D}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
