@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <Name>SQL_Database</Name>
+    <Name>VIES_SQL</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{0ab5acfc-e7b9-43da-8b20-3914875c894d}</ProjectGuid>
@@ -23,6 +23,8 @@
     <SqlServerVerification>False</SqlServerVerification>
     <IncludeCompositeObjects>True</IncludeCompositeObjects>
     <TargetDatabaseSet>True</TargetDatabaseSet>
+    <GenerateCreateScript>True</GenerateCreateScript>
+    <TargetDatabase>VIES_SQL</TargetDatabase>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <OutputPath>bin\Release\</OutputPath>
@@ -74,5 +76,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="VAT_VIES_validity.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SQL_Database.publish.xml" />
   </ItemGroup>
 </Project>

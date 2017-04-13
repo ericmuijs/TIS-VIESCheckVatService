@@ -14,3 +14,11 @@ C:\Users\Eric\Documents\Visual Studio 2017\Projects\VIESCheckVatService\VIESCons
 C:\Users\Eric\Documents\Visual Studio 2017\Projects\VIESCheckVatService\VIESConsole\obj\Debug\VIESConsole.csprojResolveAssemblyReference.cache
 C:\Users\Eric\Documents\Visual Studio 2017\Projects\VIESCheckVatService\VIESConsole\obj\Debug\VIESConsole.exe
 C:\Users\Eric\Documents\Visual Studio 2017\Projects\VIESCheckVatService\VIESConsole\obj\Debug\VIESConsole.pdb
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\VIESConsole\bin\Debug\VIESConsole.exe.config
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\VIESConsole\bin\Debug\VIESConsole.exe
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\VIESConsole\bin\Debug\VIESConsole.pdb
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\VIESConsole\bin\Debug\VIESCheckVatService.dll
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\VIESConsole\bin\Debug\VIESCheckVatService.xml
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\VIESConsole\obj\Debug\VIESConsole.csprojResolveAssemblyReference.cache
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\VIESConsole\obj\Debug\VIESConsole.exe
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\VIESConsole\obj\Debug\VIESConsole.pdb

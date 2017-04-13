@@ -1,0 +1,12 @@
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\SQL_Database\bin\Debug\SQL_Database.dacpac
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\SQL_Database\bin\Debug\SQL_Database.dll
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\SQL_Database\bin\Debug\SQL_Database.pdb
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\SQL_Database\bin\Debug\VIESCheckVatService.dll
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\SQL_Database\bin\Debug\VIESCheckVatService.xml
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\SQL_Database\obj\Debug\SQL_Database.sqlprojResolveAssemblyReference.cache
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\SQL_Database\obj\Debug\SQL_Database.dll
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\SQL_Database\obj\Debug\SQL_Database.pdb
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\SQL_Database\obj\Debug\Model.xml
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\SQL_Database\obj\Debug\refactor.xml
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\SQL_Database\obj\Debug\postdeploy.sql
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\SQL_Database\obj\Debug\predeploy.sql

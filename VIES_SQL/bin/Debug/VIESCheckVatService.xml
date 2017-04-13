@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VIESCheckVatService</name>
+    </assembly>
+    <members>
+        <member name="T:VIESCheckVatService.IVIESCheckVatService">
+            <summary>
+            Interface of the European Commission VIES Services
+            </summary>
+        </member>
+        <member name="M:VIESCheckVatService.IVIESCheckVatService.checkVAT(System.String,System.String)">
+            <summary>
+            Check the VAT number and return true or false
+            </summary>
+            <param name="countryCode">The country code (example: IT)</param>
+            <param name="vatNumber">The VAT number (example: 0235469854)</param>
+            <returns>true if check of the VAT number is OK, false otherwise</returns>
+        </member>
+        <member name="M:VIESCheckVatService.IVIESCheckVatService.getDetailVAT(System.String,System.String)">
+            <summary>
+            Check the VAT number and a more detail
+            </summary>
+            <param name="countryCode">The country code (example: IT)</param>
+            <param name="vatNumber">The VAT number (example: 0235469854)</param>
+            <returns>Detail of the VAT model (see @VVIESVatModel)</returns>
+        </member>
+        <member name="T:VIESCheckVatService.ServiceType">
+            <summary>
+            Description of ServiceType.
+            </summary>
+        </member>
+        <member name="F:VIESCheckVatService.ServiceType.SOAP">
+            <summary>
+            For SOAP Service Type
+            </summary>
+        </member>
+        <member name="F:VIESCheckVatService.ServiceType.REST">
+            <summary>
+            For REST Service Type
+            </summary>
+        </member>
+        <member name="T:VIESCheckVatService.VIESCheckServiceFactory">
+            <summary>
+            VIES Check Service Factory
+            </summary>
+        </member>
+        <member name="M:VIESCheckVatService.VIESCheckServiceFactory.getService(VIESCheckVatService.ServiceType)">
+            <summary>
+            Get an instance of VIES service
+            </summary>
+            <param name="serviceType">See @ServiceType</param>
+            <returns></returns>
+        </member>
+        <member name="T:VIESCheckVatService.VIESCheckVatServiceSOAPImp">
+            <summary>
+            Implementation class of VIESCheckVatService interface
+            </summary>
+        </member>
+        <member name="M:VIESCheckVatService.VIESCheckVatServiceSOAPImp.checkVAT(System.String,System.String)">
+            <summary>
+            Check the VAT number and return true or false
+            </summary>
+            <param name="countryCode">The country code (example: IT)</param>
+            <param name="vatNumber">The VAT number (example: 0235469854)</param>
+            <returns></returns>
+        </member>
+        <member name="M:VIESCheckVatService.VIESCheckVatServiceSOAPImp.getDetailVAT(System.String,System.String)">
+            <summary>
+            Check the VAT number and a more detail
+            </summary>
+            <param name="countryCode">The country code (example: IT)</param>
+            <param name="vatNumber">The VAT number (example: 0235469854)</param>
+            <returns></returns>
+        </member>
+        <member name="T:VIESCheckVatService.VIESVatModel">
+            <summary>
+            The VIES VAT data model returned by VIES Services.
+            </summary>
+        </member>
+        <member name="P:VIESCheckVatService.VIESVatModel.CountryCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:VIESCheckVatService.VIESVatModel.VatNumber">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:VIESCheckVatService.VIESVatModel.RequestDate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:VIESCheckVatService.VIESVatModel.Valid">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:VIESCheckVatService.VIESVatModel.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:VIESCheckVatService.VIESVatModel.Address">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:VIESCheckVatService.VIESVatModel.#ctor(System.String,System.String,System.DateTime,System.Boolean,System.String,System.String)">
+            <summary>
+            Constructor of VIES VAT model
+            </summary>
+            <param name="countryCode">The country code (example: IT)</param>
+            <param name="vatNumber">The VAT number (example: 0235469854)</param>
+            <param name="requestDate"></param>
+            <param name="valid">true or false</param>
+            <param name="name">Name of the organization relate to VAT number</param>
+            <param name="address">Address of the organization</param>
+        </member>
+        <member name="T:VIESCheckVatService.ec.europa.eu.checkVatService">
+            <remarks/>
+        </member>
+        <member name="M:VIESCheckVatService.ec.europa.eu.checkVatService.#ctor">
+            <remarks/>
+        </member>
+        <member name="M:VIESCheckVatService.ec.europa.eu.checkVatService.checkVat(System.String@,System.String@,System.Boolean@,System.String@,System.String@)">
+            <remarks/>
+        </member>
+        <member name="M:VIESCheckVatService.ec.europa.eu.checkVatService.BegincheckVat(System.String,System.String,System.AsyncCallback,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:VIESCheckVatService.ec.europa.eu.checkVatService.EndcheckVat(System.IAsyncResult,System.String@,System.String@,System.Boolean@,System.String@,System.String@)">
+            <remarks/>
+        </member>
+        <member name="M:VIESCheckVatService.ec.europa.eu.checkVatService.checkVatApprox(System.String@,System.String@,System.String@,System.String@,System.String@,System.String@,System.String@,System.String,System.String,System.Boolean@,System.String@,VIESCheckVatService.ec.europa.eu.matchCode@,System.Boolean@,VIESCheckVatService.ec.europa.eu.matchCode@,System.Boolean@,VIESCheckVatService.ec.europa.eu.matchCode@,System.Boolean@,VIESCheckVatService.ec.europa.eu.matchCode@,System.Boolean@,VIESCheckVatService.ec.europa.eu.matchCode@,System.Boolean@,System.String@)">
+            <remarks/>
+        </member>
+        <member name="M:VIESCheckVatService.ec.europa.eu.checkVatService.BegincheckVatApprox(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:VIESCheckVatService.ec.europa.eu.checkVatService.EndcheckVatApprox(System.IAsyncResult,System.String@,System.String@,System.String@,System.String@,System.String@,System.String@,System.String@,System.Boolean@,System.String@,VIESCheckVatService.ec.europa.eu.matchCode@,System.Boolean@,VIESCheckVatService.ec.europa.eu.matchCode@,System.Boolean@,VIESCheckVatService.ec.europa.eu.matchCode@,System.Boolean@,VIESCheckVatService.ec.europa.eu.matchCode@,System.Boolean@,VIESCheckVatService.ec.europa.eu.matchCode@,System.Boolean@,System.String@)">
+            <remarks/>
+        </member>
+        <member name="T:VIESCheckVatService.ec.europa.eu.matchCode">
+            <remarks/>
+        </member>
+        <member name="F:VIESCheckVatService.ec.europa.eu.matchCode.Item1">
+            <remarks/>
+        </member>
+        <member name="F:VIESCheckVatService.ec.europa.eu.matchCode.Item2">
+            <remarks/>
+        </member>
+        <member name="F:VIESCheckVatService.ec.europa.eu.matchCode.Item3">
+            <remarks/>
+        </member>
+    </members>
+</doc>

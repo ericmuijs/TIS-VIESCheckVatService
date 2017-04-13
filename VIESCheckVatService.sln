@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VIESCheckVatServiceClient",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VIESConsole", "VIESConsole\VIESConsole.csproj", "{018B564C-C5BD-434E-A045-8C2468BAA4FD}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SQL_Database", "SQL_Database\SQL_Database.sqlproj", "{0AB5ACFC-E7B9-43DA-8B20-3914875C894D}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "VIES_SQL", "VIES_SQL\VIES_SQL.sqlproj", "{0AB5ACFC-E7B9-43DA-8B20-3914875C894D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

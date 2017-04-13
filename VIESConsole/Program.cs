@@ -13,8 +13,7 @@ namespace VIESConsole
         {
             try
             {
-                VIESCheckVatService.IVIESCheckVatService iCheckVatService =
-                   VIESCheckVatService.VIESCheckServiceFactory.getService(ServiceType.SOAP);
+                VIESCheckVatService.IVIESCheckVatService iCheckVatService = VIESCheckVatService.VIESCheckServiceFactory.getService(ServiceType.SOAP);
 
                 while (true)
                 {

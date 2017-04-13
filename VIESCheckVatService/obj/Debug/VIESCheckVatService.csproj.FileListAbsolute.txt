@@ -6,3 +6,6 @@ C:\Users\Eric\Documents\Visual Studio 2017\Projects\VIESCheckVatService\VIESChec
 C:\Users\Eric\Documents\Visual Studio 2017\Projects\VIESCheckVatService\VIESCheckVatService\bin\Debug\VIESCheckVatService.dll
 C:\Users\Eric\Documents\Visual Studio 2017\Projects\VIESCheckVatService\VIESCheckVatService\obj\Debug\VIESCheckVatService.csprojResolveAssemblyReference.cache
 C:\Users\Eric\Documents\Visual Studio 2017\Projects\VIESCheckVatService\VIESCheckVatService\obj\Debug\VIESCheckVatService.dll
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\VIESCheckVatService\bin\Debug\VIESCheckVatService.xml
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\VIESCheckVatService\bin\Debug\VIESCheckVatService.dll
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\VIESCheckVatService\obj\Debug\VIESCheckVatService.dll
