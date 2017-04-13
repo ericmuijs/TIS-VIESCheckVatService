@@ -4,7 +4,12 @@
     <StartupScript>TestScript.sql</StartupScript>
     <StartAction>StartNone</StartAction>
     <StartupScriptList>TestScript.sql</StartupScriptList>
-    <TargetConnectionString>Data Source=NL5CG6092QKF\SQLEXPRESS;Initial Catalog=TIS_Tariff;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=True</TargetConnectionString>
-    <TargetDatabase>TIS_Tariff</TargetDatabase>
+    <TargetConnectionString>
+    </TargetConnectionString>
+    <TargetDatabase>
+    </TargetDatabase>
+    <DropObjectsNotInSource>True</DropObjectsNotInSource>
+    <NoAlterStatementsToChangeCLRTypes>True</NoAlterStatementsToChangeCLRTypes>
+    <BlockOnPossibleDataLoss>True</BlockOnPossibleDataLoss>
   </PropertyGroup>
 </Project>

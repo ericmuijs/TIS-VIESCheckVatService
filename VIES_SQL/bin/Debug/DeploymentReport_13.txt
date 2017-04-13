@@ -1,0 +1,20 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Drop
+       [dbo].[VAT_VIES_VALIDITY] (Function)
+       [SQL_Database] (Assembly)
+     Create
+       [SQL_Database] (Assembly)
+       [dbo].[VAT_VIES_VALIDITY] (Function)
+       [dbo].[VAT_VIES_INFO] (Function)
+
+** Supporting actions

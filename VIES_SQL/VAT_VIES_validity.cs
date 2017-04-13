@@ -1,39 +1,41 @@
 using System;
-using System.Data;
-using System.Data.SqlClient;
 using System.Data.SqlTypes;
-using Microsoft.SqlServer.Server;
 using VIESCheckVatService;
 
 public partial class UserDefinedFunctions
 {
     [Microsoft.SqlServer.Server.SqlFunction]
-    public static SqlString VAT_VIES_validity(SqlString country_code, SqlString VAT_number)
+    public static SqlInt16 VAT_VIES_VALIDITY(SqlString VAT_number)
     {
-        
+        string input = VAT_number.ToString();
+        SqlInt16 output = new SqlInt16();
+
+        if (input.Length < 4)
+        {
+            output = -2;
+            return output;
+        }
+
+        string input_country = input.Substring(0, 2);
+        string input_number = input.Substring(2);
+
+
 
         try
         {
-            VIESCheckVatService.IVIESCheckVatService iCheckVatService =
-               VIESCheckVatService.VIESCheckServiceFactory.getService(ServiceType.SOAP);
+            VIESCheckVatService.IVIESCheckVatService iCheckVatService = VIESCheckVatService.VIESCheckServiceFactory.getService(ServiceType.SOAP);           
+            VIESCheckVatService.VIESVatModel vatModel = iCheckVatService.getDetailVAT(input_country, input_number);
 
-           
-            VIESCheckVatService.VIESVatModel vatModel = iCheckVatService.getDetailVAT(country_code.ToString(), VAT_number.ToString());
-
-            /*Console.Out.WriteLine("Valid: " + vatModel.Valid);
-            Console.Out.WriteLine("County Code: " + vatModel.CountryCode);
-            Console.Out.WriteLine("VAT Number: " + vatModel.VatNumber);
-            Console.Out.WriteLine("Request Date: " + vatModel.RequestDate);
-            Console.Out.WriteLine("Org. Name: " + vatModel.Name);
-            Console.Out.WriteLine("Org. Address: " + vatModel.Address*/
-            // Put your code here
-            return new SqlString(vatModel.Name);
-
+            output = Convert.ToInt16(vatModel.Valid);        
+            
         }
         catch (Exception ex)
         {
-            return new SqlString(ex.Message);
+            output = -1;
         }
+
+        return output;
+        
         
     }
 }

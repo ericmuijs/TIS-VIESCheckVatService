@@ -8,7 +8,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{0ab5acfc-e7b9-43da-8b20-3914875c894d}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql120DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
@@ -25,6 +25,8 @@
     <TargetDatabaseSet>True</TargetDatabaseSet>
     <GenerateCreateScript>True</GenerateCreateScript>
     <TargetDatabase>VIES_SQL</TargetDatabase>
+    <PermissionSet>EXTERNAL_ACCESS</PermissionSet>
+    <Trustworthy>True</Trustworthy>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <OutputPath>bin\Release\</OutputPath>
@@ -67,6 +69,7 @@
       <Private>True</Private>
       <IsModelAware>True</IsModelAware>
       <GenerateSqlClrDdl>True</GenerateSqlClrDdl>
+      <SqlPermissionSet>EXTERNAL_ACCESS</SqlPermissionSet>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -75,7 +78,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="VAT_VIES_validity.cs" />
+    <Compile Include="VAT_VIES_VALIDITY.cs" />
+    <Compile Include="VAT_VIES_INFO.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="SQL_Database.publish.xml" />

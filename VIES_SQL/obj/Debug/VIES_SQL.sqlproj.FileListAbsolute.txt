@@ -1,0 +1,8 @@
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\VIES_SQL\bin\Debug\VIES_SQL.dacpac
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\VIES_SQL\bin\Debug\SQL_Database.dll
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\VIES_SQL\bin\Debug\SQL_Database.pdb
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\VIES_SQL\bin\Debug\VIESCheckVatService.dll
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\VIES_SQL\bin\Debug\VIESCheckVatService.xml
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\VIES_SQL\obj\Debug\VIES_SQL.sqlprojResolveAssemblyReference.cache
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\VIES_SQL\obj\Debug\SQL_Database.dll
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\VIES_SQL\obj\Debug\SQL_Database.pdb

@@ -9,3 +9,4 @@ C:\Users\Eric\Documents\Visual Studio 2017\Projects\VIESCheckVatService\VIESChec
 C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\VIESCheckVatService\bin\Debug\VIESCheckVatService.xml
 C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\VIESCheckVatService\bin\Debug\VIESCheckVatService.dll
 C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\VIESCheckVatService\obj\Debug\VIESCheckVatService.dll
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\VIESCheckVatService\obj\Debug\VIESCheckVatService.csprojResolveAssemblyReference.cache
