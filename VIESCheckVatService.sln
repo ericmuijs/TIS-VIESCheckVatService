@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VIESConsole", "VIESConsole\
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "VIES_SQL", "VIES_SQL\VIES_SQL.sqlproj", "{0AB5ACFC-E7B9-43DA-8B20-3914875C894D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VIES_GUI", "VIES_GUI\VIES_GUI.csproj", "{25AF8A08-94EB-4287-A8CC-B6ED68E1F9E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{0AB5ACFC-E7B9-43DA-8B20-3914875C894D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AB5ACFC-E7B9-43DA-8B20-3914875C894D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0AB5ACFC-E7B9-43DA-8B20-3914875C894D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{25AF8A08-94EB-4287-A8CC-B6ED68E1F9E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25AF8A08-94EB-4287-A8CC-B6ED68E1F9E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25AF8A08-94EB-4287-A8CC-B6ED68E1F9E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25AF8A08-94EB-4287-A8CC-B6ED68E1F9E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,11 @@
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\VIES_GUI\bin\Debug\VIES_GUI.exe.config
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\VIES_GUI\bin\Debug\VIES_GUI.exe
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\VIES_GUI\bin\Debug\VIES_GUI.pdb
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\VIES_GUI\obj\Debug\VIES_GUI.csprojResolveAssemblyReference.cache
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\VIES_GUI\obj\Debug\VIES_GUI.MainForm.resources
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\VIES_GUI\obj\Debug\VIES_GUI.Properties.Resources.resources
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\VIES_GUI\obj\Debug\VIES_GUI.csproj.GenerateResource.Cache
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\VIES_GUI\obj\Debug\VIES_GUI.exe
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\VIES_GUI\obj\Debug\VIES_GUI.pdb
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\VIES_GUI\bin\Debug\VIESCheckVatService.dll
+C:\Users\emuijs\Source\Repos\TIS-VIESCheckVatService\VIES_GUI\bin\Debug\VIESCheckVatService.xml
